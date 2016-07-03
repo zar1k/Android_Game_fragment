@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andreyzarazka.babygame"
+    android:versionCode="2"
+    android:versionName="1.0.1">
+
+    <!-- Mandatory permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Highly recommended permission to get more ads and revenue -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyThemeFullscreen">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".controler.ScreenSlidePagerActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.andreyzarazka.babygame.GAMESCREEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AnimalsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.CarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ColorActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ShapeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+    </application>
+
+</manifest>

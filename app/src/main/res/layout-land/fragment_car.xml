@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="@mipmap/thema_car"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".fragment.CarFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/id_car_fragment"
+            android:name="com.andreyzarazka.babygame.fragment.CarBtnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_car_btn" />
+
+        <fragment
+            android:id="@+id/id_text_car_fragment"
+            android:name="com.andreyzarazka.babygame.fragment.CarDescriptionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout="@layout/fragment_car_description" />
+    </LinearLayout>
+</RelativeLayout>

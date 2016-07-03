@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/thema_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/red_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/red_pazzle_button" />
+
+        <ImageButton
+            android:id="@+id/orange_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/orange_pazzle_button" />
+
+        <ImageButton
+            android:id="@+id/yellow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/yellow_pazzle_button" />
+
+        <ImageButton
+            android:id="@+id/green_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/green_pazzle_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/blue_pazzle_button" />
+
+        <ImageButton
+            android:id="@+id/blue1_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/blue_one_pazzle_button" />
+
+        <ImageButton
+            android:id="@+id/purple_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/purple_pazzle_button" />
+
+        <ImageButton
+            android:id="@+id/black_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/black_pazzle_button" />
+    </LinearLayout>
+
+</LinearLayout>

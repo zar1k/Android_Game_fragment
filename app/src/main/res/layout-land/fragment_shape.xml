@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="@mipmap/thema_shape"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".fragment.ShapeFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/id_shape_fragment"
+            android:name="com.andreyzarazka.babygame.fragment.ShapeBtnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_shape_btn" />
+
+        <fragment
+            android:id="@+id/id_text_shape_fragment"
+            android:name="com.andreyzarazka.babygame.fragment.ShapeDescriptionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout="@layout/fragment_shape_description" />
+    </LinearLayout>
+</RelativeLayout>

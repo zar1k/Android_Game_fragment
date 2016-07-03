@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/thema_car"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/baik_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/bike_button" />
+
+        <ImageButton
+            android:id="@+id/bus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/bus_button" />
+
+        <ImageButton
+            android:id="@+id/car_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/car_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/train_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/train_button" />
+
+        <ImageButton
+            android:id="@+id/plane_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/airplane_button" />
+
+        <ImageButton
+            android:id="@+id/ship_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@mipmap/steamship_button" />
+    </LinearLayout>
+
+</LinearLayout>

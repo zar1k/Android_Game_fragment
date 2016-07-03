@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="@mipmap/thema_animal"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".fragment.AnimalsFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/id_animals_fragment"
+            android:name="com.andreyzarazka.babygame.fragment.AnimalsBtnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_animals_btn" />
+
+        <fragment
+            android:id="@+id/id_text_animals_fragment"
+            android:name="com.andreyzarazka.babygame.fragment.AnimalsDescriptionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout="@layout/fragment_animals_description" />
+    </LinearLayout>
+</RelativeLayout>

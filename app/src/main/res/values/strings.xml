@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Развивашка малышам</string>
+    <string name="animals_text">Звуки животных</string>
+    <string name="car_text">Звуки транспорта</string>
+    <string name="colors_text">Учим цвета</string>
+    <string name="shape_text">Учим геометрические фигуры</string>
+
+</resources>
+
