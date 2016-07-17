@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.andreyzarazka.babygame"
-    android:versionCode="2"
-    android:versionName="1.0.1">
+    android:versionCode="1412320"
+    android:versionName="1.0.2">
 
     <!-- Mandatory permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Highly recommended permission to get more ads and revenue -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <supports-screens android:requiresSmallestWidthDp="320" />
 
     <uses-sdk
         android:minSdkVersion="14"
